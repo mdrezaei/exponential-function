@@ -7,7 +7,7 @@ namespace ConsoleApp5_ProfitCalculator
         static void Main(string[] args)
         {
             int j = 0;
-            for ( j = 0; j < 1; )
+            for ( ; j < 1; )
             {
                 Console.WriteLine("Enter Initial Value :");
                 double InitialValue = double.Parse(Console.ReadLine());
